@@ -1,0 +1,27 @@
+body {
+  font-family: 'Courier New', monospace;
+  margin: 0;
+  padding-top: 40px;
+  text-align: center;
+}
+
+#container {
+  padding: 24px;
+}
+
+p {
+  user-select: none;
+}
+
+#target {
+  font-size: 48px;
+  letter-spacing: .1em;
+}
+
+#result {
+  font-size: 24px;
+}
+
+.isPlaying {
+  background: #fff;
+}
