@@ -17,6 +17,7 @@
     }
 
     target.textContent = 'Your guess? _';
+    result.textContent = '';
     container.classList.add('isPlaying');
     setAnswer();
   })
@@ -34,8 +35,8 @@
       count++;
     } else {
       target.textContent = 'Bingo!';
-      result.textContent = `It took ${count} guesses!`;
-      return;
+      result.textContent = `It took ${count} guesses! Click to try again`;
+      container.classList.remove('isPlaying');
     }
   })
 1
